@@ -1,0 +1,17 @@
+{
+  "id": "dev.bdg.simai-exporter",
+  "repo": "beat-data-generator/bdg_plugin_simai",
+  "author": "BUGJI",
+  "categories": ["export"],
+  "tags": ["maimai", "simai", "rhythm"],
+  "minAppVersion": "0.2.15",
+  "name": {
+    "zh": "舞萌 Simai 导出",
+    "en": "maimai Simai Export"
+  },
+  "description": {
+    "zh": "把所有标记点按最小分拍网格导出为舞萌（Simai）谱面，并写入 BPM 变化标记。",
+    "en": "Export all markers as a maimai (Simai) chart on the minimal subdivision grid, including BPM changes."
+  },
+  "versions": {}
+}

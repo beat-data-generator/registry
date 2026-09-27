@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/beat-data-generator/registry/schema/plugin.schema.json",
+  "title": "Beat Data Generator plugin registry source file",
+  "description": "A curated plugins/<name>.json. The latest field is computed by scripts/build-registry.mjs; versions is maintained by scripts/sync-releases.mjs.",
+  "type": "object",
+  "required": ["id", "repo", "name", "description", "versions"],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+    "repo": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$"
+    },
+    "author": { "type": "string" },
+    "homepage": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "categories": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "export",
+          "import",
+          "integration",
+          "visual",
+          "utility",
+          "analysis"
+        ]
+      }
+    },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "minAppVersion": { "type": "string" },
+    "name": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        }
+      ]
+    },
+    "description": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        }
+      ]
+    },
+    "versions": {
+      "type": "object",
+      "propertyNames": {
+        "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "required": ["url", "sha256"],
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+          "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+          "size": { "type": "integer", "minimum": 1 },
+          "minAppVersion": { "type": "string" }
+        }
+      }
+    }
+  }
+}

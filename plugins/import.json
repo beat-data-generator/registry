@@ -1,0 +1,17 @@
+{
+  "id": "dev.bdg.import",
+  "repo": "beat-data-generator/bdg_plugin_import",
+  "author": "BUGJI",
+  "categories": ["import"],
+  "tags": ["midi", "timestamp"],
+  "minAppVersion": "0.2.15",
+  "name": {
+    "zh": "时间戳导入",
+    "en": "Timestamp Import"
+  },
+  "description": {
+    "zh": "从文本时间戳或 MIDI 文件导入踩点。时间戳整数按毫秒、含小数按秒；MIDI 按音符时间新建轨道并放置踩点。",
+    "en": "Import markers from text timestamps or MIDI files. Timestamps: integers are milliseconds, decimals are seconds; MIDI note times create new tracks of markers."
+  },
+  "versions": {}
+}

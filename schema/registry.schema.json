@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/beat-data-generator/registry/schema/registry.schema.json",
+  "title": "Beat Data Generator plugin registry",
+  "description": "Generated from plugins/*.json by scripts/build-registry.mjs. Matches MarketIndex in the client (src/shared/market.ts).",
+  "type": "object",
+  "required": ["schema", "plugins"],
+  "additionalProperties": false,
+  "properties": {
+    "schema": { "const": 1 },
+    "updatedAt": { "type": "string", "format": "date-time" },
+    "plugins": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/plugin" }
+    }
+  },
+  "definitions": {
+    "locaText": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        }
+      ]
+    },
+    "version": {
+      "type": "object",
+      "required": ["url", "sha256"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "size": { "type": "integer", "minimum": 1 },
+        "minAppVersion": { "type": "string" }
+      }
+    },
+    "plugin": {
+      "type": "object",
+      "required": ["id", "latest", "repo", "name", "description", "versions"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[A-Za-z0-9._-]+$" },
+        "latest": { "type": "string" },
+        "repo": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9._-]+/[A-Za-z0-9._-]+$"
+        },
+        "author": { "type": "string" },
+        "homepage": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https://"
+        },
+        "categories": { "type": "array", "items": { "type": "string" } },
+        "tags": { "type": "array", "items": { "type": "string" } },
+        "minAppVersion": { "type": "string" },
+        "name": { "$ref": "#/definitions/locaText" },
+        "description": { "$ref": "#/definitions/locaText" },
+        "versions": {
+          "type": "object",
+          "minProperties": 1,
+          "propertyNames": {
+            "pattern": "^\\d+\\.\\d+\\.\\d+(?:-[0-9A-Za-z.-]+)?$"
+          },
+          "additionalProperties": { "$ref": "#/definitions/version" }
+        }
+      }
+    }
+  }
+}

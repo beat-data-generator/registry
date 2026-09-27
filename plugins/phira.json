@@ -1,0 +1,17 @@
+{
+  "id": "dev.bdg.phira-converter",
+  "repo": "beat-data-generator/bdg_plugin_phira",
+  "author": "BUGJI",
+  "categories": ["export"],
+  "tags": ["phira", "rpe", "rhythm"],
+  "minAppVersion": "0.2.15",
+  "name": {
+    "zh": "Phira 谱面转换器",
+    "en": "Phira Chart Converter"
+  },
+  "description": {
+    "zh": "把工程中的踩点(Tap)转换成 Phira/RPE 谱面，可选合并成单判定线模式，并连同音频打包为 .pez。",
+    "en": "Convert project tap markers into a Phira/RPE chart, with optional single-judge-line merge mode, and pack it with the audio into a .pez."
+  },
+  "versions": {}
+}
