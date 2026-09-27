@@ -1,5 +1,184 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-27T06:48:35.925Z",
-  "plugins": []
+  "updatedAt": "2026-09-27T06:54:58.178Z",
+  "plugins": [
+    {
+      "id": "dev.bdg.adofai-export",
+      "latest": "0.1.0",
+      "repo": "beat-data-generator/bdg_plugin_adofai",
+      "author": "BUGJI",
+      "categories": [
+        "export"
+      ],
+      "tags": [
+        "adofai",
+        "rhythm"
+      ],
+      "minAppVersion": "0.2.15",
+      "name": {
+        "zh": "ADOFAI 导出",
+        "en": "ADOFAI Export"
+      },
+      "description": {
+        "zh": "把踩点工程导出为 A Dance of Fire and Ice (.adofai) 关卡，支持双押、BPM 变速轨道与暂停补偿。",
+        "en": "Export the project as a Dance of Fire and Ice (.adofai) level, with double-press, BPM speed track and pause compensation."
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.1.0/plugin.zip",
+          "sha256": "ce941ee3fd36d1d045cb77d4e5e3c0afd1e99b2df96a7238f222c39859ccf30a",
+          "size": 14994
+        }
+      }
+    },
+    {
+      "id": "dev.bdg.dglab-relay",
+      "latest": "0.1.0",
+      "repo": "beat-data-generator/bdg_plugin_dglab_v4",
+      "author": "BUGJI",
+      "categories": [
+        "integration"
+      ],
+      "tags": [
+        "dglab",
+        "device",
+        "relay"
+      ],
+      "minAppVersion": "0.2.15",
+      "name": {
+        "zh": "DG-LAB 联动",
+        "en": "DG-LAB Sync"
+      },
+      "description": {
+        "zh": "通过 DG-LAB 4 WebSocket Relay 连接设备，在播放到节拍点时联动输出强度/脉冲。",
+        "en": "Connect DG-LAB 4 devices via WebSocket Relay and drive strength/pulse on beat points during playback."
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_dglab_v4/releases/download/v0.1.0/plugin.zip",
+          "sha256": "818b72adc6bf7c1abc09cd581c734330b0733093b0079c150d9ef53b619a2dc5",
+          "size": 9831
+        }
+      }
+    },
+    {
+      "id": "dev.bdg.import",
+      "latest": "0.1.0",
+      "repo": "beat-data-generator/bdg_plugin_import",
+      "author": "BUGJI",
+      "categories": [
+        "import"
+      ],
+      "tags": [
+        "midi",
+        "timestamp"
+      ],
+      "minAppVersion": "0.2.15",
+      "name": {
+        "zh": "时间戳导入",
+        "en": "Timestamp Import"
+      },
+      "description": {
+        "zh": "从文本时间戳或 MIDI 文件导入踩点。时间戳整数按毫秒、含小数按秒；MIDI 按音符时间新建轨道并放置踩点。",
+        "en": "Import markers from text timestamps or MIDI files. Timestamps: integers are milliseconds, decimals are seconds; MIDI note times create new tracks of markers."
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_import/releases/download/v0.1.0/plugin.zip",
+          "sha256": "01b5022a002ab97416ad8aef0211bad51898958aadf814f5d771909b4767d241",
+          "size": 9049
+        }
+      }
+    },
+    {
+      "id": "dev.bdg.osu-export",
+      "latest": "0.1.0",
+      "repo": "beat-data-generator/bdg_plugin_osu",
+      "author": "BUGJI",
+      "categories": [
+        "export"
+      ],
+      "tags": [
+        "osu",
+        "mania",
+        "rhythm"
+      ],
+      "minAppVersion": "0.2.15",
+      "name": {
+        "zh": "osu!mania 导出",
+        "en": "osu!mania Export"
+      },
+      "description": {
+        "zh": "把踩点导出为 osu!mania 谱面（.osu）。面板里填写元数据、选择 7K/8K/16K 等键数并把每条轨道映射到列，同一时刻的多轨踩点自动成为多押。",
+        "en": "Export markers as an osu!mania beatmap (.osu). Configure metadata, pick a key count (7K/8K/16K ...), map each track to a column; simultaneous markers on different tracks become chords."
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_osu/releases/download/v0.1.0/plugin.zip",
+          "sha256": "4b1a0ff7f239ba075007a69d37a41d16d10121294e0c2ec75a225904b9cf1544",
+          "size": 11320
+        }
+      }
+    },
+    {
+      "id": "dev.bdg.phira-converter",
+      "latest": "0.1.0",
+      "repo": "beat-data-generator/bdg_plugin_phira",
+      "author": "BUGJI",
+      "categories": [
+        "export"
+      ],
+      "tags": [
+        "phira",
+        "rpe",
+        "rhythm"
+      ],
+      "minAppVersion": "0.2.15",
+      "name": {
+        "zh": "Phira 谱面转换器",
+        "en": "Phira Chart Converter"
+      },
+      "description": {
+        "zh": "把工程中的踩点(Tap)转换成 Phira/RPE 谱面，可选合并成单判定线模式，并连同音频打包为 .pez。",
+        "en": "Convert project tap markers into a Phira/RPE chart, with optional single-judge-line merge mode, and pack it with the audio into a .pez."
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.1.0/plugin.zip",
+          "sha256": "6d897fff6c00b8a4028af9783b333891b8620a6269b663da35c22001b66d6f2c",
+          "size": 11039
+        }
+      }
+    },
+    {
+      "id": "dev.bdg.simai-exporter",
+      "latest": "0.1.0",
+      "repo": "beat-data-generator/bdg_plugin_simai",
+      "author": "BUGJI",
+      "categories": [
+        "export"
+      ],
+      "tags": [
+        "maimai",
+        "simai",
+        "rhythm"
+      ],
+      "minAppVersion": "0.2.15",
+      "name": {
+        "zh": "舞萌 Simai 导出",
+        "en": "maimai Simai Export"
+      },
+      "description": {
+        "zh": "把所有标记点按最小分拍网格导出为舞萌（Simai）谱面，并写入 BPM 变化标记。",
+        "en": "Export all markers as a maimai (Simai) chart on the minimal subdivision grid, including BPM changes."
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_simai/releases/download/v0.1.0/plugin.zip",
+          "sha256": "afe870a94c7cb3824e5ce6c76b446759ac7c3f1613c745bf7116dd58390113b8",
+          "size": 6483
+        }
+      }
+    }
+  ]
 }

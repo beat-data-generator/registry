@@ -2,8 +2,13 @@
   "id": "dev.bdg.adofai-export",
   "repo": "beat-data-generator/bdg_plugin_adofai",
   "author": "BUGJI",
-  "categories": ["export"],
-  "tags": ["adofai", "rhythm"],
+  "categories": [
+    "export"
+  ],
+  "tags": [
+    "adofai",
+    "rhythm"
+  ],
   "minAppVersion": "0.2.15",
   "name": {
     "zh": "ADOFAI 导出",
@@ -13,5 +18,11 @@
     "zh": "把踩点工程导出为 A Dance of Fire and Ice (.adofai) 关卡，支持双押、BPM 变速轨道与暂停补偿。",
     "en": "Export the project as a Dance of Fire and Ice (.adofai) level, with double-press, BPM speed track and pause compensation."
   },
-  "versions": {}
+  "versions": {
+    "0.1.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.1.0/plugin.zip",
+      "sha256": "ce941ee3fd36d1d045cb77d4e5e3c0afd1e99b2df96a7238f222c39859ccf30a",
+      "size": 14994
+    }
+  }
 }

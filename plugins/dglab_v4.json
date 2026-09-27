@@ -2,8 +2,14 @@
   "id": "dev.bdg.dglab-relay",
   "repo": "beat-data-generator/bdg_plugin_dglab_v4",
   "author": "BUGJI",
-  "categories": ["integration"],
-  "tags": ["dglab", "device", "relay"],
+  "categories": [
+    "integration"
+  ],
+  "tags": [
+    "dglab",
+    "device",
+    "relay"
+  ],
   "minAppVersion": "0.2.15",
   "name": {
     "zh": "DG-LAB 联动",
@@ -13,5 +19,11 @@
     "zh": "通过 DG-LAB 4 WebSocket Relay 连接设备，在播放到节拍点时联动输出强度/脉冲。",
     "en": "Connect DG-LAB 4 devices via WebSocket Relay and drive strength/pulse on beat points during playback."
   },
-  "versions": {}
+  "versions": {
+    "0.1.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_dglab_v4/releases/download/v0.1.0/plugin.zip",
+      "sha256": "818b72adc6bf7c1abc09cd581c734330b0733093b0079c150d9ef53b619a2dc5",
+      "size": 9831
+    }
+  }
 }

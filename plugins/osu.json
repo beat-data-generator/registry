@@ -2,8 +2,14 @@
   "id": "dev.bdg.osu-export",
   "repo": "beat-data-generator/bdg_plugin_osu",
   "author": "BUGJI",
-  "categories": ["export"],
-  "tags": ["osu", "mania", "rhythm"],
+  "categories": [
+    "export"
+  ],
+  "tags": [
+    "osu",
+    "mania",
+    "rhythm"
+  ],
   "minAppVersion": "0.2.15",
   "name": {
     "zh": "osu!mania 导出",
@@ -13,5 +19,11 @@
     "zh": "把踩点导出为 osu!mania 谱面（.osu）。面板里填写元数据、选择 7K/8K/16K 等键数并把每条轨道映射到列，同一时刻的多轨踩点自动成为多押。",
     "en": "Export markers as an osu!mania beatmap (.osu). Configure metadata, pick a key count (7K/8K/16K ...), map each track to a column; simultaneous markers on different tracks become chords."
   },
-  "versions": {}
+  "versions": {
+    "0.1.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_osu/releases/download/v0.1.0/plugin.zip",
+      "sha256": "4b1a0ff7f239ba075007a69d37a41d16d10121294e0c2ec75a225904b9cf1544",
+      "size": 11320
+    }
+  }
 }
