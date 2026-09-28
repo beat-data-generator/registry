@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "updatedAt": "2026-09-27T06:55:28.490Z",
+  "updatedAt": "2026-09-28T09:41:03.878Z",
   "plugins": [
     {
       "id": "dev.bdg.adofai-export",
@@ -122,7 +122,7 @@
     },
     {
       "id": "dev.bdg.phira-converter",
-      "latest": "0.1.0",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_phira",
       "author": "BUGJI",
       "categories": [
@@ -147,6 +147,11 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.1.0/plugin.zip",
           "sha256": "6d897fff6c00b8a4028af9783b333891b8620a6269b663da35c22001b66d6f2c",
           "size": 11039
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.2.0/plugin.zip",
+          "sha256": "f6ba535a0c8ca7fd035ee351c05c058ff83d2ca35ab03e2b8d88697519e303e2",
+          "size": 12278
         }
       }
     },
