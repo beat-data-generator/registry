@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-01T10:03:26.907Z",
+  "updatedAt": "2026-10-02T09:41:26.856Z",
   "plugins": [
     {
       "id": "dev.bdg.adofai-export",
-      "latest": "0.1.0",
+      "latest": "0.1.1",
       "repo": "beat-data-generator/bdg_plugin_adofai",
       "author": "BUGJI",
       "categories": [
@@ -28,6 +28,11 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.1.0/plugin.zip",
           "sha256": "ce941ee3fd36d1d045cb77d4e5e3c0afd1e99b2df96a7238f222c39859ccf30a",
           "size": 14994
+        },
+        "0.1.1": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.1.1/plugin.zip",
+          "sha256": "13b7f87b94c4975342d2ef147e78d8b789393fabd423f4613c0bd4800393aa1f",
+          "size": 15542
         }
       }
     },
