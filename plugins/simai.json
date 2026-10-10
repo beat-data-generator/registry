@@ -10,7 +10,7 @@
     "simai",
     "rhythm"
   ],
-  "minAppVersion": "0.2.15",
+  "minAppVersion": "0.3.9",
   "name": {
     "zh": "舞萌 Simai 导出",
     "en": "maimai Simai Export"
@@ -24,6 +24,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_simai/releases/download/v0.1.0/plugin.zip",
       "sha256": "afe870a94c7cb3824e5ce6c76b446759ac7c3f1613c745bf7116dd58390113b8",
       "size": 6483
+    },
+    "0.2.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_simai/releases/download/v0.2.0/plugin.zip",
+      "sha256": "c95ddab1551fa34fa91b2fb2e5e1cece06b94a015a3dfd870b66f4ce5b90f1cf",
+      "size": 8503
     }
   }
 }

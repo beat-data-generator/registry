@@ -10,7 +10,7 @@
     "rpe",
     "rhythm"
   ],
-  "minAppVersion": "0.2.15",
+  "minAppVersion": "0.3.9",
   "name": {
     "zh": "Phira 谱面转换器",
     "en": "Phira Chart Converter"
@@ -29,6 +29,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.2.0/plugin.zip",
       "sha256": "f6ba535a0c8ca7fd035ee351c05c058ff83d2ca35ab03e2b8d88697519e303e2",
       "size": 12278
+    },
+    "0.3.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.3.0/plugin.zip",
+      "sha256": "6b2db48cfd4b68f7182c80c386986d953e2ac73aa17af9297b64720b24df43eb",
+      "size": 14209
     }
   }
 }

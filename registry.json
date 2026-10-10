@@ -1,10 +1,10 @@
 {
   "schema": 1,
-  "updatedAt": "2026-10-10T15:35:54.991Z",
+  "updatedAt": "2026-10-10T16:19:14.540Z",
   "plugins": [
     {
       "id": "dev.bdg.adofai-export",
-      "latest": "0.1.2",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_adofai",
       "author": "BUGJI",
       "categories": [
@@ -14,7 +14,7 @@
         "adofai",
         "rhythm"
       ],
-      "minAppVersion": "0.2.15",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "ADOFAI 导出",
         "en": "ADOFAI Export"
@@ -38,12 +38,17 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.1.2/plugin.zip",
           "sha256": "e0c1dc7a705c1cb5325b3aa03aa962cca2fd087a89567f2e13d3b46f86742d3a",
           "size": 16401
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.2.0/plugin.zip",
+          "sha256": "7253911792433df657e8ba3f7bcacccc5eb008706f91b372af3999d2a5695f38",
+          "size": 18276
         }
       }
     },
     {
       "id": "dev.bdg.audiotrim",
-      "latest": "0.1.0",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_audiotrim",
       "author": "BUGJI",
       "categories": [
@@ -55,7 +60,7 @@
         "crop",
         "wav"
       ],
-      "minAppVersion": "0.3.8",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "音频裁剪",
         "en": "Audio Trim"
@@ -69,12 +74,17 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_audiotrim/releases/download/v0.1.0/plugin.zip",
           "sha256": "139f5a931042713f4f4dd9f77c3e6dbd76b149a5b5a05f2be4ab27078bf91005",
           "size": 12176
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_audiotrim/releases/download/v0.2.0/plugin.zip",
+          "sha256": "d13fd37491c853a9f7227940a1276ec3a1d7e04a4e4a716a509cb55d9c5bd11a",
+          "size": 12554
         }
       }
     },
     {
       "id": "dev.bdg.dglab-relay",
-      "latest": "0.1.0",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_dglab_v4",
       "author": "BUGJI",
       "categories": [
@@ -85,7 +95,7 @@
         "device",
         "relay"
       ],
-      "minAppVersion": "0.2.15",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "DG-LAB 联动",
         "en": "DG-LAB Sync"
@@ -99,12 +109,17 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_dglab_v4/releases/download/v0.1.0/plugin.zip",
           "sha256": "818b72adc6bf7c1abc09cd581c734330b0733093b0079c150d9ef53b619a2dc5",
           "size": 9831
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_dglab_v4/releases/download/v0.2.0/plugin.zip",
+          "sha256": "a07af0585605a3a3a5b21ff413c4a2c7e07560ffcbf31e380a947bb237785c53",
+          "size": 11764
         }
       }
     },
     {
       "id": "dev.bdg.import",
-      "latest": "0.1.0",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_import",
       "author": "BUGJI",
       "categories": [
@@ -114,7 +129,7 @@
         "midi",
         "timestamp"
       ],
-      "minAppVersion": "0.2.15",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "时间戳导入",
         "en": "Timestamp Import"
@@ -128,12 +143,17 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_import/releases/download/v0.1.0/plugin.zip",
           "sha256": "01b5022a002ab97416ad8aef0211bad51898958aadf814f5d771909b4767d241",
           "size": 9049
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_import/releases/download/v0.2.0/plugin.zip",
+          "sha256": "d52a8100da9fff5f3fa6476d402a15c60145730610bfb4e96071272796b1eafe",
+          "size": 10480
         }
       }
     },
     {
       "id": "dev.bdg.osu-export",
-      "latest": "0.1.0",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_osu",
       "author": "BUGJI",
       "categories": [
@@ -144,7 +164,7 @@
         "mania",
         "rhythm"
       ],
-      "minAppVersion": "0.2.15",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "osu!mania 导出",
         "en": "osu!mania Export"
@@ -158,12 +178,17 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_osu/releases/download/v0.1.0/plugin.zip",
           "sha256": "4b1a0ff7f239ba075007a69d37a41d16d10121294e0c2ec75a225904b9cf1544",
           "size": 11320
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_osu/releases/download/v0.2.0/plugin.zip",
+          "sha256": "4181198c6208395650ebb742aa2a68f6bf41728c207045a83b3a81a8ed9f3cc1",
+          "size": 13301
         }
       }
     },
     {
       "id": "dev.bdg.phira-converter",
-      "latest": "0.2.0",
+      "latest": "0.3.0",
       "repo": "beat-data-generator/bdg_plugin_phira",
       "author": "BUGJI",
       "categories": [
@@ -174,7 +199,7 @@
         "rpe",
         "rhythm"
       ],
-      "minAppVersion": "0.2.15",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "Phira 谱面转换器",
         "en": "Phira Chart Converter"
@@ -193,12 +218,17 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.2.0/plugin.zip",
           "sha256": "f6ba535a0c8ca7fd035ee351c05c058ff83d2ca35ab03e2b8d88697519e303e2",
           "size": 12278
+        },
+        "0.3.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_phira/releases/download/v0.3.0/plugin.zip",
+          "sha256": "6b2db48cfd4b68f7182c80c386986d953e2ac73aa17af9297b64720b24df43eb",
+          "size": 14209
         }
       }
     },
     {
       "id": "dev.bdg.simai-exporter",
-      "latest": "0.1.0",
+      "latest": "0.2.0",
       "repo": "beat-data-generator/bdg_plugin_simai",
       "author": "BUGJI",
       "categories": [
@@ -209,7 +239,7 @@
         "simai",
         "rhythm"
       ],
-      "minAppVersion": "0.2.15",
+      "minAppVersion": "0.3.9",
       "name": {
         "zh": "舞萌 Simai 导出",
         "en": "maimai Simai Export"
@@ -223,6 +253,11 @@
           "url": "https://github.com/beat-data-generator/bdg_plugin_simai/releases/download/v0.1.0/plugin.zip",
           "sha256": "afe870a94c7cb3824e5ce6c76b446759ac7c3f1613c745bf7116dd58390113b8",
           "size": 6483
+        },
+        "0.2.0": {
+          "url": "https://github.com/beat-data-generator/bdg_plugin_simai/releases/download/v0.2.0/plugin.zip",
+          "sha256": "c95ddab1551fa34fa91b2fb2e5e1cece06b94a015a3dfd870b66f4ce5b90f1cf",
+          "size": 8503
         }
       }
     }

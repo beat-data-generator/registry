@@ -10,7 +10,7 @@
     "device",
     "relay"
   ],
-  "minAppVersion": "0.2.15",
+  "minAppVersion": "0.3.9",
   "name": {
     "zh": "DG-LAB 联动",
     "en": "DG-LAB Sync"
@@ -24,6 +24,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_dglab_v4/releases/download/v0.1.0/plugin.zip",
       "sha256": "818b72adc6bf7c1abc09cd581c734330b0733093b0079c150d9ef53b619a2dc5",
       "size": 9831
+    },
+    "0.2.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_dglab_v4/releases/download/v0.2.0/plugin.zip",
+      "sha256": "a07af0585605a3a3a5b21ff413c4a2c7e07560ffcbf31e380a947bb237785c53",
+      "size": 11764
     }
   }
 }

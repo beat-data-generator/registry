@@ -9,7 +9,7 @@
     "adofai",
     "rhythm"
   ],
-  "minAppVersion": "0.2.15",
+  "minAppVersion": "0.3.9",
   "name": {
     "zh": "ADOFAI 导出",
     "en": "ADOFAI Export"
@@ -33,6 +33,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.1.2/plugin.zip",
       "sha256": "e0c1dc7a705c1cb5325b3aa03aa962cca2fd087a89567f2e13d3b46f86742d3a",
       "size": 16401
+    },
+    "0.2.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.2.0/plugin.zip",
+      "sha256": "7253911792433df657e8ba3f7bcacccc5eb008706f91b372af3999d2a5695f38",
+      "size": 18276
     }
   }
 }

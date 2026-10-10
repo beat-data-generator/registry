@@ -10,7 +10,7 @@
     "mania",
     "rhythm"
   ],
-  "minAppVersion": "0.2.15",
+  "minAppVersion": "0.3.9",
   "name": {
     "zh": "osu!mania 导出",
     "en": "osu!mania Export"
@@ -24,6 +24,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_osu/releases/download/v0.1.0/plugin.zip",
       "sha256": "4b1a0ff7f239ba075007a69d37a41d16d10121294e0c2ec75a225904b9cf1544",
       "size": 11320
+    },
+    "0.2.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_osu/releases/download/v0.2.0/plugin.zip",
+      "sha256": "4181198c6208395650ebb742aa2a68f6bf41728c207045a83b3a81a8ed9f3cc1",
+      "size": 13301
     }
   }
 }

@@ -2,9 +2,16 @@
   "id": "dev.bdg.audiotrim",
   "repo": "beat-data-generator/bdg_plugin_audiotrim",
   "author": "BUGJI",
-  "categories": ["utility"],
-  "tags": ["audio", "trim", "crop", "wav"],
-  "minAppVersion": "0.3.8",
+  "categories": [
+    "utility"
+  ],
+  "tags": [
+    "audio",
+    "trim",
+    "crop",
+    "wav"
+  ],
+  "minAppVersion": "0.3.9",
   "name": {
     "zh": "音频裁剪",
     "en": "Audio Trim"
@@ -18,6 +25,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_audiotrim/releases/download/v0.1.0/plugin.zip",
       "sha256": "139f5a931042713f4f4dd9f77c3e6dbd76b149a5b5a05f2be4ab27078bf91005",
       "size": 12176
+    },
+    "0.2.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_audiotrim/releases/download/v0.2.0/plugin.zip",
+      "sha256": "d13fd37491c853a9f7227940a1276ec3a1d7e04a4e4a716a509cb55d9c5bd11a",
+      "size": 12554
     }
   }
 }
