@@ -1,0 +1,23 @@
+{
+  "id": "dev.bdg.audiotrim",
+  "repo": "beat-data-generator/bdg_plugin_audiotrim",
+  "author": "BUGJI",
+  "categories": ["utility"],
+  "tags": ["audio", "trim", "crop", "wav"],
+  "minAppVersion": "0.3.8",
+  "name": {
+    "zh": "音频裁剪",
+    "en": "Audio Trim"
+  },
+  "description": {
+    "zh": "在时间轴上框选一段音频，导出裁剪副本（WAV），或就地裁剪并替换当前音频（踩点按拍号自动对齐）。",
+    "en": "Select a span on the timeline to export a trimmed WAV copy, or crop in place and replace the current audio (markers stay beat-aligned)."
+  },
+  "versions": {
+    "0.1.0": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_audiotrim/releases/download/v0.1.0/plugin.zip",
+      "sha256": "139f5a931042713f4f4dd9f77c3e6dbd76b149a5b5a05f2be4ab27078bf91005",
+      "size": 12176
+    }
+  }
+}
