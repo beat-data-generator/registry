@@ -38,6 +38,11 @@
       "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.2.0/plugin.zip",
       "sha256": "7253911792433df657e8ba3f7bcacccc5eb008706f91b372af3999d2a5695f38",
       "size": 18276
+    },
+    "0.4.1": {
+      "url": "https://github.com/beat-data-generator/bdg_plugin_adofai/releases/download/v0.4.1/plugin.zip",
+      "sha256": "1f82a1ef0080cf8afe2208e59e85c90a77a1914ff65f81687362e21bccedde98",
+      "size": 46848
     }
   }
 }
